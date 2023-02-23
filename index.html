@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Requirement-1.A -->
-        <title>Nickthecan</title>
         <meta charset="UTF-8">
         <meta name="description" content="Personal Website">
         <meta name="keywords" content="About">
         <meta name="author" content="Nicholas Amancio">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!-- Requirement-1.A -->
+        <title>Nickthecan</title>
     </head>
 
     <body>
-        <div style="background-color: aqua;">
+        <div>
             <!-- Requirement-1.B -->
             <header>
                 <!-- Requirement-1.F -->
-                <h1 style="text-align: center;">Nicholas Amancio's Personal Website</h1>
+                <h1 id="title">Nicholas Amancio's Personal Website</h1>
                 <hr>
             </header>
             <div>
                 <!-- Requirement-1.F -->
-                <h2 style="text-align: center;">All About Me</h2>
+                <h2 id="subtitle">All About Me</h2>
             </div>
             <!-- Requirement-1.N -->
-            <img style="display: block; margin-left: auto; margin-right: auto;" src="photos/pictureOfMe.jpg" alt="Nick" width="300" height="400">
+            <img class="pictureofme"  src="photos/pictureOfMe.jpg" alt="Nick">
             <!-- Requirement-1.E -->
             <section>
-            <h2 style="text-align: center;">About Nick</h2>
-                <ul style="background-color: aquamarine;">
+            <h2 id="subtitle2">About Nick</h2>
+                <ul class="list">
                     <!-- Requirement-1.K -->
                     <li>Life and Favorites
-                        <ul style="color: purple;">
+                        <ul class="l1">
                             <li>Sophomore CS student at Cal Poly Pomona</li>
                             <li>Server at Boiling Point restaurant</li>
                             <li>Lives in Chino Hills, CA</li>
@@ -44,7 +45,7 @@
                         </ul>
                     </li>
                     <li>Hobbies
-                        <ul style="color: blue;">
+                        <ul class="l2">
                             <li>Chess</li>
                             <li>Anime</li>
                             <li>Drawing</li>
@@ -56,7 +57,7 @@
                         </ul>
                     </li>
                     <li>Goals and Dreams
-                        <ul style="color: red;">
+                        <ul class="l3">
                             <li>Striving to be an academic weapon</li>
                             <li>Visiting multiple food places top try delicious dishes</li>
                             <li>Try to be good at Data Structures and Algorithms</li>
@@ -68,7 +69,7 @@
             <hr>
             <!-- Requirement-1.D -->
             <nav>
-                <div style="background-color: rgb(133, 133, 133);">
+                <div class="navigationbuttons">
                     <h2 style="background-color: rgb(34, 34, 34); color: aquamarine; text-align: center;">More Pages</h2>
                     <!-- Requirement-1.J -->
                     <a href="photosOfMe.html">
