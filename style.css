@@ -1,51 +1,108 @@
 @charset "UTF-8";
 
 body {
-    background-color: aqua;
+    background-color: rgb(2, 7, 37);
 }
 
 #title {
     text-align: center;
-    font-family: "Press Start 2P", "consolas", "sans-serif";
+    font-size: 50px;
+    font-family: "Press Start 2p", "consolas", "sans-serif";
+    color: rgb(248, 248, 243);
+}
+
+hr.divider {
+    border-top: 1px solid #bbb;
 }
 
 #subtitle {
     text-align: center;
     font-family: "consolas", "sans-serif";
+    color: rgb(248, 248, 243);
 }
 
 #subtitle2 {
-    text-align: center;
+    margin-left: 375px;
     font-family: "consolas", "sans-serif";
+    color: rgb(248, 248, 243);
 }
 
 .pictureofme {
     position: relative;
     display: block;
+    border-style: solid;
+    border-color: rgb(21, 134, 233);
+    border-width: 10px;
+    border-radius: 40px;
+    margin-top: 150px;
     margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    height: 400px;
+    margin-right: 270px;
+    width: 590px;
+    height: 700px;
+    float: right;
+
+    
 }
 
 .list {
-    background-color: #2EEEAE;
+    color: rgb(248, 248, 243);
     font-size: 25px;
     font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
 }
 
 .l1 {
+    border: 2px solid;
+    width: 40%;
     color: purple;
 }
 
 .l2 {
+    border: 2px solid;
+    width: 40%;
     color: blue;
 }
 
 .l3 {
+    border: 2px solid;
+    width: 40%;
     color: red;
 }
 
-.navigationbuttons {
-    background-color: rgb(133, 133, 133);
+.pages {
+    background-color: rgb(21, 134, 233);
+    color: rgb(248, 248, 243);
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.buttons {
+    background-color: rgb(21, 134, 233);
+    border-style: solid;
+    border-color: rgb(6, 50, 88);
+    width: 24.8%;
+    height: 100px;
+    font-size: large;
+    font-family: "consolas", "sans-serif";
+    font-weight: bold;
+    color: rgb(248, 248, 243);
+    cursor: pointer;
+}
+
+.buttons:hover {
+    color: black;
+    background-color: rgb(248, 248, 243);
+}
+
+.buttons:active {
+    color: rgb(248, 248, 243);
+    background-color: rgb(2, 7, 37);
+}
+
+.footer {
+    background-color: rgb(21, 134, 233);
+    border-style: solid;
+    border-color: rgb(21, 134, 233);
+    margin-top: 2px;
+    font-family: "consolas", "sans-serif";
+    color: rgb(248, 248, 243);
 }
