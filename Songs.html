@@ -12,38 +12,38 @@
     </head>
 
     <body>
-        <div style="background-color: rgb(137, 92, 179);">
+        <div>
             <!-- Requirement-1.B -->
             <header>
                 <!-- Requirement-1.F -->
-                <h1 style="text-align: center;">Nicholas Amancio's Personal Website</h1>
+                <h1>Nicholas Amancio's Personal Website</h1>
                 <hr>
             </header>
 
             <div>
                 <!-- Requirement-1.F -->
-                <h1 style="text-align: center;">My Favorite Artist : ZUTOMAYO</h1>
+                <h2 id="songsTitle">My Favorite Artist : ZUTOMAYO</h2>
             </div>
             <div>
                 <!-- Requirement-1.L -->
                 <figure>
                     <!-- Requirement-1.N -->
-                    <img style="display: block; margin-left: auto; margin-right: auto;" src="photos/Zutomayo.jpg" alt="Zutomayo" width="900">
+                    <img class="zutomayoPhoto" src="photos/Zutomayo.jpg" alt="Zutomayo">
                     <!-- Requirement-1.M -->
-                    <figcaption style="text-align: center;"> Zutomayo Cover Art from MV "STUDY ME"</figcaption>
+                    <figcaption class="zutomayoCaption"> Zutomayo Cover Art from MV "STUDY ME"</figcaption>
                 </figure>
             </div>
-            <div style="background-color: rgb(137, 92, 179);">
+            <div>
                 <!-- Requirement-1.F -->
-                <h4 style="text-align: center;">STUDY ME - ZUTOMAYO</h4>
-                <audio style="margin: 0 auto; display: block" controls src="audioAndVideos/StudyMe.mp3"></audio>
+                <h4 class="studyMeTitle">STUDY ME - ZUTOMAYO</h4>
+                <audio class="playbutton" controls="true" src="audioAndVideos/StudyMe.mp3"></audio>
             </div>
             <!-- Requirement-1.E -->
             <section>
-            <h2 style="text-align: center;">About Zutomayo</h2>
-                <div style="background-color: rgb(137, 92, 179);">
+            <h2 class="aboutZuto">About Zutomayo</h2>
+                <div class="borderForZuto">
                     <!-- Requirement-1.G -->
-                    <p style="text-align: center;">
+                    <p class="zutoDesc">
                         Zutto Mayonaka de Iinoni (ずっと真夜中でいいのに。) meaning "I wish it was midnight all the time"
                         stylized ZUTOMAYO, is a Japanese Rock group that debuted in 2018. The group is secretive and has
                         never released a full member list and has credited different people for each music production.
@@ -53,7 +53,7 @@
                         concerts during 2022 and 2023.
                     </p>
                     <!-- Requirement-1.G -->
-                    <p style="text-align: center;">
+                    <p class="zutoDesc">
                         I discovered the ZUTOMAYO group around the end of 2021 and Over the entirety of 2022, they have became
                         my favorite artist, racking up over 20,000 minutes worth of listening throughout the year (around 2 weeks straight).
                         Even though I cannot understand the songs because it is Japanese Rock, I still vibe with the music portion of the song.
@@ -64,34 +64,33 @@
             </section>
             <div>
                 <!-- Requirement-1.F -->
-                <h4 style="text-align: center;">Seigi (Justice) - ZUTOMAYO live performance</h4>
-                <video controls style="margin: 0 auto; display: block;" src="audioAndVideos/seigi.mp4"></video>
+                <h4 class="seigiTitle">Seigi (Justice) - ZUTOMAYO live performance</h4>
+                <video class="seigiVideo" controls="true" src="audioAndVideos/seigi.mp4"></video>
             </div>
             <!-- Requirement-1.D -->
             <nav>
-                <div style="background-color: rgb(133, 133, 133);">
-                    <h2 style="background-color: rgb(34, 34, 34); color: aquamarine; text-align: center;">More Pages</h2>
+                <div>
+                    <h2 class="pages">More Pages</h2>
                     <!-- Requirement-1.J -->
                     <a href="photosOfMe.html">
-                        <button style="background-color: rgb(34, 34, 34); color: aquamarine; font-size: large ;border-radius: 5px; height: 90px; width: 150px;">Photos of Me</button>
+                        <button class="buttons">Photos of Me</button>
                     </a>
                     <!-- Requirement-1.J -->
                     <a href="chess.html">
-                        <button style="background-color: rgb(34, 34, 34); color: aquamarine; font-size: large ;border-radius: 5px; height: 90px; width: 150px;">Chess Journey</button>
-                    </a>
-                    <!-- Requirement-1.I -->
-                    <a href="https://github.com/Nickthecan" target="_blank">
-                        <button style="background-color: rgb(34, 34, 34); color: aquamarine; font-size: large ;border-radius: 5px; height: 90px; width: 150px;">My Github</button>
+                        <button class="buttons">Chess Journey</button>
                     </a>
                     <!-- Requirement-1.J -->
-                    <a href="index.html" target="_blank">
-                        <button style="background-color: rgb(34, 34, 34); color: aquamarine; font-size: large ;border-radius: 5px; height: 90px; width: 150px;">Main Page</button>
+                    <a href="https://github.com/Nickthecan" target="_blank">
+                        <button class="buttons">My Github</button>
+                    </a>
+                    <!-- Requirement-1.J -->
+                    <a href="index.html">
+                        <button class="buttons">Main Page</button>
                     </a>
                 </div>
             </nav>
             <!-- Requirement-1.C -->
-            <footer style="background-color: grey;">
-                <hr>
+            <footer class="footer">
                 <p>@nickthecan | 2/14/22 | songs | CS2250</p>
             </footer>
         </div>

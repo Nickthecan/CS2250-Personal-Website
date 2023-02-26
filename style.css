@@ -1,71 +1,246 @@
 @charset "UTF-8";
 
+/*Requirement-2.A*/
 body {
+    /*Requirement-2.4*/
     background-color: rgb(2, 7, 37);
 }
 
-#title {
+/*Requirement-2.F*/
+h1 {
+    /*Requirement-2.2*/
     text-align: center;
+    /*Requirement-2.1*/
     font-size: 50px;
-    font-family: "Press Start 2p", "consolas", "sans-serif";
+    font-family: "consolas", "sans-serif";
+    /*Requirement-2.3*/
     color: rgb(248, 248, 243);
 }
 
-hr.divider {
+hr {
+    /*Requirement-2.5*/
     border-top: 1px solid #bbb;
 }
 
-#subtitle {
-    text-align: center;
-    font-family: "consolas", "sans-serif";
+/*Requirement-2.B*/
+#mainPageTitle, #photosTitle, #songsTitle, #chessTitle {
     color: rgb(248, 248, 243);
+    text-align: center;
+    font-size: 30px;
+    font-family: "consolas", "sans-serif";
 }
 
+/*Requirement-2.D*/
 #subtitle2 {
+    /*Requirement-2.6*/
     margin-left: 375px;
     font-family: "consolas", "sans-serif";
     color: rgb(248, 248, 243);
 }
 
+/*Requirement-2.C*/
 .pictureofme {
+    /*Requirement-2.15*/
     position: relative;
+    /*Requirement-2.12*/
     display: block;
     border-style: solid;
     border-color: rgb(21, 134, 233);
+    /*Requirement-2.9*/
     border-width: 10px;
     border-radius: 40px;
     margin-top: 150px;
-    margin-left: auto;
-    margin-right: 270px;
+    /*Requirement-2.10*/
+    margin-right: 10%;
+    /*Requirement-2.7*/
     width: 590px;
     height: 700px;
+    /*Requirement-2.11*/
     float: right;
-
-    
+    /*Requirement-2.13*/
+    clear: right;
 }
 
 .list {
+    /*Requirement-2.8*/
+    list-style: none;
+    list-style-position: inside;
     color: rgb(248, 248, 243);
     font-size: 25px;
     font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+    clear: left;
 }
 
 .l1 {
     border: 2px solid;
     width: 40%;
-    color: purple;
+    color: rgb(235, 92, 235);
+    /*Requirement-2.14*/
+    overflow: visible;
 }
 
 .l2 {
     border: 2px solid;
     width: 40%;
-    color: blue;
+    color: rgb(21, 134, 233);
+    overflow: visible;
 }
 
 .l3 {
     border: 2px solid;
     width: 40%;
-    color: red;
+    color: rgb(118, 231, 197);
+    overflow: visible;
+}
+
+.table, tr, th {
+    border: 4px solid rgb(248, 248, 243);
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "consolas", "sans-serif";
+    color: rgb(248, 248, 243);
+    padding: 30px;
+    list-style-type: disc;
+}
+
+.photosVertical, .photosHorizontal {
+    width: 400px;
+}
+
+.zutomayoPhoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(21, 134, 233);
+    border-radius: 10px;
+}
+
+.zutomayoCaption {
+    text-align: center;
+    color: rgb(248, 248, 243);
+    font-size: 20px;
+    font-family: "consolas", "sans-serif";
+    /*Requirement-2.16*/
+    visibility: visible;
+}
+
+.studyMeTitle, .aboutZuto, .zutoDesc, .seigiTitle, .chessCaption, .chessStoryTitle, .chessStory {
+    text-align: center;
+    color: rgb(248, 248, 243);
+    font-family: "consolas", "sans-serif";
+    overflow: visible;
+}
+
+.playbutton {
+    margin: auto;
+    display: block;
+}
+
+.playbutton::-webkit-media-controls-panel {
+    background-color: rgb(21, 134, 233);
+}
+
+.borderForZuto, .borderForChess {
+    border: 2px solid rgb(248, 248, 243);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.seigiVideo {
+    margin: auto;
+    display: block;
+    border: 3px solid;
+    border-color: rgb(21, 134, 233);
+    border-radius: 10px;
+    visibility: inherit;
+}
+
+.chessBoard {
+    margin: auto;
+    display: block;
+    width: 600px;
+    border: 4px solid;
+    border-color: rgb(21, 134, 233);
+    /*Requirement-2.17*/
+    z-index: 4;
+}
+
+.chessCaptionTop {
+    background: border-box;
+    background-color: rgb(6, 50, 88);
+    background-size: 30%;
+    border: 1px solid;
+    border-color: rgb(6, 50, 88);
+    border-radius: 10px;
+    width: 41%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(248, 248, 243);
+    font-family: "consolas", "sans-serif";
+    overflow: visible;
+    z-index: 2;
+}
+
+.chessGif {
+    margin-bottom: 20px;
+    float: right;
+    width: 600px;
+}
+
+/*Requirement-2.G*/
+details {
+    text-align: center;
+    color: rgb(248, 248, 243);
+    font-family: "consolas", "sans-serif";
+    overflow: auto;
+}
+
+.gameLogic {
+    text-align: center;
+    color: rgb(248, 248, 243);
+    font-family: "consolas", "sans-serif";
+    overflow: auto;
+}
+
+/*Requirement-2.H*/
+summary {
+    padding: 1rem;
+    display: block;
+    background: rgb(6, 50, 88);
+    padding-left: 2.2rem;
+    width: 90%;
+    position: relative;
+    cursor: pointer;
+}
+
+summary:before {
+    content: '';
+    border-width: .4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: .2rem 50%;
+    transition: .25s transform ease;
+}
+  
+details[open] > summary:before {
+    transform: rotate(90deg);
+}
+  
+details summary::-webkit-details-marker {
+    display:none;
 }
 
 .pages {
@@ -73,6 +248,7 @@ hr.divider {
     color: rgb(248, 248, 243);
     text-align: center;
     margin-bottom: 5px;
+    clear: both;
 }
 
 .buttons {
@@ -88,6 +264,7 @@ hr.divider {
     cursor: pointer;
 }
 
+/*Requirement-2.E*/
 .buttons:hover {
     color: black;
     background-color: rgb(248, 248, 243);
