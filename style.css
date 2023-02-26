@@ -49,9 +49,9 @@ hr {
     /*Requirement-2.9*/
     border-width: 10px;
     border-radius: 40px;
-    margin-top: 150px;
+    margin-top: -800px;
     /*Requirement-2.10*/
-    margin-right: 10%;
+    margin-right: 175px;
     /*Requirement-2.7*/
     width: 590px;
     height: 700px;
@@ -59,6 +59,44 @@ hr {
     float: right;
     /*Requirement-2.13*/
     clear: right;
+    /*Requirement-2.17*/
+    z-index: 6;
+}
+
+.container1 {
+    position: relative;
+    display: block;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 40px;
+    margin-top: 150px;
+    border-color: rgb(235, 92, 235);
+    height: 590px;
+    width: 600px;
+    background-color: rgb(235, 92, 235);
+    float: right;
+    clear: right;
+    margin-right: 250px;
+    z-index: 4;
+}
+
+.container2 {
+    position: relative;
+    display: block;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 40px;
+    margin-top: 150px;
+    border-color: rgb(118, 231, 197);
+    height: 590px;
+    width: 600px;
+    background-color: rgb(118, 231, 197);
+    float: right;
+    clear: right;
+    margin-top: -400px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    z-index: 2;
 }
 
 .list {
@@ -169,8 +207,6 @@ hr {
     width: 600px;
     border: 4px solid;
     border-color: rgb(21, 134, 233);
-    /*Requirement-2.17*/
-    z-index: 4;
 }
 
 .chessCaptionTop {
@@ -183,11 +219,11 @@ hr {
     width: 41%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
     text-align: center;
     color: rgb(248, 248, 243);
     font-family: "consolas", "sans-serif";
     overflow: visible;
-    z-index: 2;
 }
 
 .chessGif {
